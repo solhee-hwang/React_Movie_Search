@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-
 import classes from "./App.css";
 import Movie from "./Component/Movie";
-import MovieInfo from "./Component/movieinfo/MovieInformation";
+
 import { BiSearchAlt2 } from "react-icons/bi";
-const FEATURED_API = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3e460ce267a850056ef9b570eb30d1eb&page=1`;
-const SEARCH_API = `https://api.themoviedb.org/3/search/movie?&api_key=3e460ce267a850056ef9b570eb30d1eb&query=`;
+const API_KEY = process.env.REACT_APP_MOVIE_KEY;
+const FEATURED_API = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${API_KEY}&page=1`;
+const SEARCH_API = `https://api.themoviedb.org/3/search/movie?&api_key=${API_KEY}&query=`;
 //영화 순위에 따른 정렬?const [searchTerm, setSearchTerm] = useStateState
 
 //영화정보 API
