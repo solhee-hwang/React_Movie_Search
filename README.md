@@ -16,3 +16,7 @@ https://developers.themoviedb.org/3/getting-started/introduction
 https://proglish.tistory.com/154
 https://github.com/letmejace/ReactMoviesApp
 ```
+## Notion Link
+```
+https://ssori.notion.site/React_miniproject-bd2626ade46441b399eaf5bc2691c2be
+```
