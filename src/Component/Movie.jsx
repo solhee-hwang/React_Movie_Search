@@ -8,7 +8,6 @@ const Movie = ({
   overview,
   release_date,
   vote_average,
-  genres,
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const openModalHandler = (props) => setIsModalOpen(true);
